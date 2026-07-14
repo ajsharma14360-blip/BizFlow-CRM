@@ -1,0 +1,32 @@
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 70px 40px;
+  background: #f8f9fa;
+}
+
+.stat-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 220px;
+  text-align: center;
+  margin: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-8px);
+}
+
+.stat-card h2 {
+  color: #ff6b35;
+  font-size: 40px;
+}
+
+.stat-card p {
+  margin-top: 10px;
+  color: #666;
+}
