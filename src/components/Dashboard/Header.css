@@ -1,0 +1,43 @@
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 30px;
+    background:white;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.header-right{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.header-right input{
+    padding:10px 15px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    outline:none;
+    width:220px;
+}
+
+.notify{
+    border:none;
+    background:#ff7a45;
+    color:white;
+    padding:10px 14px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.profile{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:#1f2937;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}

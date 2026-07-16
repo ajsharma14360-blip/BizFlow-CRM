@@ -1,0 +1,17 @@
+.card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card h3{
+    color:#666;
+    font-size:16px;
+    margin-bottom:10px;
+}
+
+.card h1{
+    color:#1f2937;
+    font-size:30px;
+}
